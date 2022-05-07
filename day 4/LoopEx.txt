@@ -1,0 +1,21 @@
+import java.util.*;
+class LoopEx
+{
+public static void main(String args[]){
+int i=0;
+int sum=0;
+int n;
+Scanner sc=new Scanner(System.in);
+System.out.println("enter number for addition");
+n=sc.nextInt();
+
+while(i<=n);
+{
+sum = (n*(n+1))/2;
+i=i+1;
+
+}
+System.out.println( sum);
+}
+
+}
