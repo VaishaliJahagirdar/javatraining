@@ -1,0 +1,19 @@
+import java.util.*;
+class fact
+{
+public static void main(String args[])
+{
+int i=1;
+int sum=1;
+Scanner sc=new Scanner(System.in);
+System.out.println("enter number");
+ int n=sc.nextInt();
+while(i<=n);
+{
+sum=sum*i;
+i=i+1;
+}
+System.out.println("addition is " +sum);
+}
+}
+
